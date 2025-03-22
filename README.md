@@ -23,13 +23,13 @@ GhostAD 是一个轻量级的 Active Directory 枚举工具，用于收集域环
 Invoke-GhostAD
 
 # 枚举指定域
-Invoke-GhostAD -Domain 'contoso.com'
+Invoke-GhostAD -Domain 'ghostwolflab.com'
 
 # 使用指定的域控制器
-Invoke-GhostAD -Domain 'contoso.com' -Server 'DC01.contoso.com'
+Invoke-GhostAD -Domain 'ghostwolflab.com' -Server 'DC01.ghostwolflab.com'
 
 # 使用提供的凭据
-Invoke-GhostAD -Domain 'contoso.com' -Credential (Get-Credential)
+Invoke-GhostAD -Domain 'ghostwolflab.com' -Credential (Get-Credential)
 
 # 将结果导出为 HTML 报告
 Invoke-GhostAD -OutputFile "C:\Temp\ADReport.html"
