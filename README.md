@@ -35,6 +35,10 @@ Invoke-GhostAD -Domain 'ghostwolflab.com' -Credential (Get-Credential)
 Invoke-GhostAD -OutputFile "C:\Temp\ADReport.html"
 ```
 
+报告示例：
+
+![](report.png)
+
 ### 参数说明
 
 - **Domain**：要枚举的域。如果未指定，将使用当前域。
